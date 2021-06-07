@@ -3,7 +3,7 @@
 
 const Card = (({tittle,text,imgUrl,link,textLink})=>{
     return(
-        <div className="card col-3" style={{
+        <div className="card col-3 m-2" style={{
             width: "18rem"
         }}>
             <img src={imgUrl} className="card-img-top" alt="..."/>
