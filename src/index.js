@@ -11,9 +11,8 @@ const App = (()=>{
     return(
         <>
         {/* Aca los componentes*/}
-        <Navbar/>
         <div className="container">
-          
+            <Navbar/>
             <Jumbotron/>
             <div className="row">{/*Este div para almacenar las cartas*/}
                 <Card text = "Esta es la primera carta" tittle="Carta 1" imgUrl="" link="" textLink="Vamos"/>
