@@ -2,11 +2,9 @@
 function Jumbotron() {
     return (
         <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4"></hr>
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <h1 class="display-4">A Warm Welcome!</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod augue id risus varius imperdiet. Proin sed eleifend mauris. Proin lectus ligula, malesuada ut ipsum vel, fermentum semper neque. Suspendisse.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Call action!</a>
 
         </div>
     )
