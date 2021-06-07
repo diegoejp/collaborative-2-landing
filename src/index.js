@@ -15,11 +15,11 @@ const App = (()=>{
             <Navbar/>
         <div className="container">
             <Jumbotron/>
-            <div className="row">{/*Este div para almacenar las cartas*/}
-                <Card text = "Esta es la primera carta" tittle="Carta 1" imgUrl="" link="" textLink="Vamos"/>
-                <Card text = "Esta es la segunda carta" tittle="Carta 2" imgUrl="" link="" textLink="Go"/>
-                <Card text = "Esta es la tercera carta" tittle="Carta 3" imgUrl="" link="" textLink="Done"/>
-                <Card text = "Esta es la cuarta carta" tittle="Carta 4" imgUrl="" link="" textLink="Ready"/>
+            <div className="row row-lg-cols-4 row-cols-xs-2">
+                <Card text = "Esta es la primera carta" tittle="Carta 1" imgUrl="https://picsum.photos/100/50" link="" textLink="Vamos"/>
+                <Card text = "Esta es la segunda carta" tittle="Carta 2" imgUrl="https://picsum.photos/100/50" link="" textLink="Go"/>
+                <Card text = "Esta es la tercera carta" tittle="Carta 3" imgUrl="https://picsum.photos/100/50" link="" textLink="Done"/>
+                <Card text = "Esta es la cuarta carta" tittle="Carta 4" imgUrl="https://picsum.photos/100/50" link="" textLink="Ready"/>
             </div>
             
         </div>
